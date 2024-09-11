@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Rental - Browse Books</title>
+    <link rel="stylesheet" href="review.css" />
+  </head>
+
+  <body>
+    <div id="navbar1"></div>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Book Rental</a>
+        <form class="d-flex" onsubmit="return false;">
+          <div class="input-group">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Search for books"
+              aria-label="Search"
+            />
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <div class="pagination-container">
+      <button class="btn pagination-btn" onclick="goToFirstPage()">First</button>
+      <button class="btn pagination-btn" onclick="goToPreviousPage()">Prev</button>
+      <span class="page-info">Page 1 of 10</span>
+      <button class="btn pagination-btn" onclick="goToNextPage()">Next</button>
+      <button class="btn pagination-btn" onclick="goToLastPage()">Last</button>
+    </div>
+
+    <div class="book-list">
+      <div class="book-card">
+        <h4 class="book-title">The Great Gatsby</h4>
+        <img src="book_cover_url" alt="Book Cover" class="book-cover" />
+        <p class="book-genre">Genre: Fiction</p>
+        <p class="book-rating">Ratings: 4.5/5</p>
+        <div class="book-critics">
+          <p><b>Critics' Reviews:</b></p>
+          <p>“A classic novel with timeless themes.” - Critic 1</p>
+          <p>“A deep dive into 1920s society.” - Critic 2</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pagination-container">
+      <button class="btn pagination-btn" onclick="goToFirstPage()">First</button>
+      <button class="btn pagination-btn" onclick="goToPreviousPage()">Prev</button>
+      <span class="page-info">Page 1 of 10</span>
+      <button class="btn pagination-btn" onclick="goToNextPage()">Next</button>
+      <button class="btn pagination-btn" onclick="goToLastPage()">Last</button>
+    </div>
+  </body>
+</html>

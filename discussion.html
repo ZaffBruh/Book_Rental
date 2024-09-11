@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discussion</title>
+    <link rel="stylesheet" href="discussion.css" />
+  </head>
+
+  <body>
+    <div id="navbar1"></div>
+
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Know The Insights</a>
+        <form class="d-flex" onsubmit="return false;">
+          <div class="input-group">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Search your here"
+              aria-label="Search"
+            />
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <div class="content">
+      <h1>Recent Discussions</h1>
+
+      <div class="discussion-card">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Around the World in 80 Days</h5>
+            <p class="card-text">
+                By ExplorerJane: "I just finished reading Jules Verne's Around the World in 80 Days, and I'm completely fascinated by Phileas Fogg’s journey! His calm demeanor in the face of all those challenges is remarkable. But what do you all think about his character? Do you feel like he was driven more by pride or the thrill of adventure? Also, what are your thoughts on Passepartout’s role? For me, his moments of naivety balanced out Fogg’s serious nature perfectly. I'd love to hear everyone's interpretation of their dynamic! Oh, and if you could take a journey around the world like Fogg, where would you want to visit first?"
+            </p>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn upvote">UpVote <i class="fas fa-thumbs-up"></i></button>
+          <button class="btn downvote">DownVote <i class="fas fa-thumbs-down"></i></button>
+          <button class="btn comment">Comment <i class="fas fa-comment"></i></button>
+        </div>
+      </div>
+
+      <div class="discussion-card">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"> The Tempest</h5>
+            <p class="card-text">
+                By ShakespeareFan204: "Prospero’s character in The Tempest is so complex! I can’t decide if I see him more as a hero or a manipulator. The way he controls others with his magic makes him seem so powerful, but at the same time, it feels like he’s trying to justify his actions with the idea of restoring justice. What are your thoughts on his moral compass? Also, Caliban is such an interesting character—he’s both a victim and a villain in so many ways. Do you think he deserves the sympathy he asks for, or is he just too far gone to redeem? Let’s discuss this masterpiece!"
+            </p>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn upvote">UpVote <i class="fas fa-thumbs-up"></i></button>
+          <button class="btn downvote">DownVote <i class="fas fa-thumbs-down"></i></button>
+          <button class="btn comment">Comment <i class="fas fa-comment"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <button id="floatingButton" class="btn success">
+        <i class="fas fa-pen-to-square"></i>
+      </button>
+    </div>
+    <div id="modal1"></div>
+  </body>
+</html>
