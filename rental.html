@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Rental</title>
+    <link rel="stylesheet" href="rental.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <h1>Book Rental</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rental.html" class="active">Rental</a></li>
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="discussion.html">Discussion</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="search-bar">
+            <input type="search" placeholder="Search for a book" id="searchInput">
+            <button id="clearBtn">Clear</button>
+        </div>
+
+        <div class="book-list">
+            <!-- Example Book Cards -->
+            <div class="book">
+                <img src="book1.jpg" alt="Book Cover">
+                <h3>Book Title 1</h3>
+                <b>Genre: Fiction</b>
+                <p>
+                    <span>For One Week: 150 Tk</span><br>
+                    <span>For Two Weeks: 250 Tk</span><br>
+                    <span>For One Month: 450 Tk</span><br>
+                    <span>Buying Price: 1200 Tk</span>
+                </p>
+                <button>Rent or Buy</button>
+            </div>
+
+            <div class="book">
+                <img src="book2.jpg" alt="Book Cover">
+                <h3>Book Title 2</h3>
+                <b>Genre: Non-Fiction</b>
+                <p>
+                    <span>For One Week: 200 Tk</span><br>
+                    <span>For Two Weeks: 350 Tk</span><br>
+                    <span>For One Month: 600 Tk</span><br>
+                    <span>Buying Price: 1500 Tk</span>
+                </p>
+                <button>Rent or Buy</button>
+            </div>
+
+            <!-- Add more books as needed -->
+        </div>
+
+        <div class="pagination">
+            <button class="pagination-btn">First</button>
+            <button class="pagination-btn">Prev</button>
+            <span>1</span> <!-- Dynamically add page numbers -->
+            <button class="pagination-btn">Next</button>
+            <button class="pagination-btn">Last</button>
+        </div>
+    </main>
+
+</body>
+</html>

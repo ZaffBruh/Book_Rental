@@ -1,0 +1,20 @@
+.carousel-fade .carousel-caption h3,
+.carousel-fade .carousel-caption p {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.text-center h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.container .col {
+  background: linear-gradient(to bottom, #ffffff, #f7f8fa);
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .col:hover {
+  transform: scale(1.05);
+}
+
